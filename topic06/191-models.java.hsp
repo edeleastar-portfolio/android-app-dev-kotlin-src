@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<local-project language="java" version="4.2.12693" xml-version="3" flavor="j2se">
+  <property name="show-as-module" value="true" />
+  <property name="publish-architecture-artifacts" value="true" />
+  <property name="project-type" value="classpath" />
+  <property name="hide-externals" value="true" />
+  <property name="parse-archive-in-archive" value="false" />
+  <property name="include-injected-dependency" value="false" />
+  <property name="relative-to" value="const(THIS_FILE)" />
+  <property name="action-set-mod" value="1" />
+  <property name="detail-mode" value="true" />
+  <property name="hide-deprecated" value="false" />
+  <property name="resolve-name-clashes" value="true" />
+  <property name="project-excluded" />
+  <property name="show-needs-to-compile" value="false" />
+  <classpath>
+    <classpathentry kind="lib" path="../../../mad-2-2018/prj/placemark-projects/placemark-origin/app/build" />
+  </classpath>
+  <pom-root-files />
+  <restructuring>
+    <set version="3" name="Model 1" hiview="Codemap" active="true" todo="false" list="0" slicer="1" />
+  </restructuring>
+  <grid-set sep="." version="4.2.12693">
+    <grid name="Diagram 1" enforce="true" locked="true" strict="false" excludes="">
+      <row>
+        <cell name="android" pattern="android.*" vexpanded="true" illegal="false" visibility="public" drill="true">
+          <grid>
+            <row>
+              <cell name="arch" pattern="android.arch.*" vexpanded="false" illegal="false" visibility="public" drill="true">
+                <grid>
+                  <row>
+                    <cell name="lifecycle" pattern="android.arch.lifecycle.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                  </row>
+                </grid>
+              </cell>
+              <cell name="support" pattern="android.support.*" vexpanded="true" illegal="false" visibility="public" drill="true">
+                <grid>
+                  <row>
+                    <cell name="compat" pattern="android.support.compat.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                    <cell name="constraint" pattern="android.support.constraint.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                    <cell name="coreui" pattern="android.support.coreui.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                    <cell name="coreutils" pattern="android.support.coreutils.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                    <cell name="design" pattern="android.support.design.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                    <cell name="fragment" pattern="android.support.fragment.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                    <cell name="graphics" pattern="android.support.graphics.*" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                    <cell name="mediacompat" pattern="android.support.mediacompat.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                    <cell name="transition" pattern="android.support.transition.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                    <cell name="v4" pattern="android.support.v4.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                    <cell name="v7" pattern="android.support.v7.*" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                  </row>
+                </grid>
+              </cell>
+            </row>
+          </grid>
+        </cell>
+        <cell name="com" pattern="com.*" vexpanded="true" illegal="false" visibility="public" drill="true">
+          <grid>
+            <row>
+              <cell name="android" pattern="com.android.*" vexpanded="false" illegal="false" visibility="public" drill="true">
+                <grid>
+                  <row>
+                    <cell name="tools" pattern="com.android.tools.*" vexpanded="true" illegal="false" visibility="public" drill="true">
+                      <grid>
+                        <row>
+                          <cell name="ir" pattern="com.android.tools.ir.*" vexpanded="true" illegal="false" visibility="public" drill="true">
+                            <grid>
+                              <row>
+                                <cell name="dummy" pattern="com.android.tools.ir.dummy.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                              </row>
+                            </grid>
+                          </cell>
+                        </row>
+                      </grid>
+                    </cell>
+                  </row>
+                </grid>
+              </cell>
+              <cell name="google" pattern="com.google.*" vexpanded="true" illegal="false" visibility="public" drill="true">
+                <grid>
+                  <row>
+                    <cell name="android" pattern="com.google.android.*" vexpanded="true" illegal="false" visibility="public" drill="true">
+                      <grid>
+                        <row>
+                          <cell name="gms" pattern="com.google.android.gms.*" vexpanded="true" illegal="false" visibility="public" drill="true">
+                            <grid>
+                              <row>
+                                <cell name="gms" pattern="com.google.android.gms.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                                <cell name="base" pattern="com.google.android.gms.base.*" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                                <cell name="common" pattern="com.google.android.gms.common.*" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                                <cell name="maps" pattern="com.google.android.gms.maps.*" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                                <cell name="tasks" pattern="com.google.android.gms.tasks.*" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                              </row>
+                            </grid>
+                          </cell>
+                        </row>
+                      </grid>
+                    </cell>
+                  </row>
+                </grid>
+              </cell>
+            </row>
+          </grid>
+        </cell>
+        <cell name="org" pattern="org.*" vexpanded="true" illegal="false" visibility="public" drill="true">
+          <grid>
+            <row>
+              <cell name="wit" pattern="org.wit.*" vexpanded="true" illegal="false" visibility="public" drill="true">
+                <grid>
+                  <row>
+                    <cell name="placemark" pattern="org.wit.placemark.*" vexpanded="true" illegal="false" visibility="public" drill="true">
+                      <grid>
+                        <row>
+                          <cell name="(5)" pattern="" vexpanded="true" illegal="false" visibility="public" drill="true">
+                            <grid>
+                              <row>
+                                <cell name="activities" pattern="org.wit.placemark.activities.?" vexpanded="true" illegal="false" visibility="public" drill="true">
+                                  <grid>
+                                    <row>
+                                      <cell name="PlacemarkListActivity" pattern="org.wit.placemark.activities.PlacemarkListActivity" vexpanded="false" illegal="false" visibility="public" drill="false" />
+                                    </row>
+                                    <row>
+                                      <cell name="PlacemarkActivity" pattern="org.wit.placemark.activities.PlacemarkActivity" vexpanded="false" illegal="false" visibility="public" drill="false" />
+                                      <cell name="PlacemarkAdapter" pattern="org.wit.placemark.activities.PlacemarkAdapter" vexpanded="false" illegal="false" visibility="public" drill="false" />
+                                    </row>
+                                    <row>
+                                      <cell name="MapsActivity" pattern="org.wit.placemark.activities.MapsActivity" vexpanded="false" illegal="false" visibility="public" drill="false" />
+                                      <cell name="PlacemarkListener" pattern="org.wit.placemark.activities.PlacemarkListener" vexpanded="false" illegal="false" visibility="public" drill="false" />
+                                    </row>
+                                  </grid>
+                                </cell>
+                              </row>
+                              <row>
+                                <cell name="main" pattern="org.wit.placemark.main.?" vexpanded="true" illegal="false" visibility="public" drill="true">
+                                  <grid>
+                                    <row>
+                                      <cell name="MainApp" pattern="org.wit.placemark.main.MainApp" vexpanded="false" illegal="false" visibility="public" drill="false" />
+                                    </row>
+                                  </grid>
+                                </cell>
+                              </row>
+                              <row>
+                                <cell name="helpers" pattern="org.wit.placemark.helpers.?" vexpanded="true" illegal="false" visibility="public" drill="true">
+                                  <grid>
+                                    <row>
+                                      <cell name="ImageHelpersKt" pattern="org.wit.placemark.helpers.ImageHelpersKt" vexpanded="false" illegal="false" visibility="public" drill="false" />
+                                    </row>
+                                  </grid>
+                                </cell>
+                                <cell name="models" pattern="org.wit.placemark.models.?" vexpanded="true" illegal="false" visibility="public" drill="true">
+                                  <grid>
+                                    <row>
+                                      <cell name="(4)" pattern="" vexpanded="true" illegal="false" visibility="public" drill="true">
+                                        <grid>
+                                          <row>
+                                            <cell name="PlacemarkMemStore" pattern="org.wit.placemark.models.PlacemarkMemStore" vexpanded="false" illegal="false" visibility="public" drill="false" />
+                                          </row>
+                                          <row>
+                                            <cell name="PlacemarkStore" pattern="org.wit.placemark.models.PlacemarkStore" vexpanded="false" illegal="false" visibility="public" drill="false" />
+                                          </row>
+                                          <row>
+                                            <cell name="PlacemarkMemStoreKt" pattern="org.wit.placemark.models.PlacemarkMemStoreKt" vexpanded="false" illegal="false" visibility="public" drill="false" />
+                                            <cell name="PlacemarkModel" pattern="org.wit.placemark.models.PlacemarkModel" vexpanded="false" illegal="false" visibility="public" drill="false" />
+                                          </row>
+                                        </grid>
+                                      </cell>
+                                      <cell name="(1)" pattern="" vexpanded="true" illegal="false" visibility="public" drill="true">
+                                        <grid>
+                                          <row>
+                                            <cell name="Location" pattern="org.wit.placemark.models.Location" vexpanded="false" illegal="false" visibility="public" drill="false" />
+                                          </row>
+                                        </grid>
+                                      </cell>
+                                    </row>
+                                  </grid>
+                                </cell>
+                                <cell name="R" pattern="org.wit.placemark.R" vexpanded="false" illegal="false" visibility="public" drill="false" />
+                              </row>
+                            </grid>
+                          </cell>
+                          <cell name="(1)" pattern="" vexpanded="true" illegal="false" visibility="public" drill="true">
+                            <grid>
+                              <row>
+                                <cell name="BuildConfig" pattern="org.wit.placemark.BuildConfig" vexpanded="false" illegal="false" visibility="public" drill="false" />
+                              </row>
+                            </grid>
+                          </cell>
+                        </row>
+                      </grid>
+                    </cell>
+                  </row>
+                </grid>
+              </cell>
+            </row>
+          </grid>
+        </cell>
+      </row>
+      <description>Generated from LSM "Model 1"</description>
+    </grid>
+    <grid name="Diagram 2" enforce="true" locked="true" strict="false" excludes="">
+      <row>
+        <cell name="(5)" pattern="" vexpanded="true" illegal="false" visibility="public" drill="true">
+          <grid>
+            <row>
+              <cell name="activities" pattern="org.wit.placemark.activities.?" vexpanded="true" illegal="false" visibility="public" drill="true">
+                <grid>
+                  <row>
+                    <cell name="PlacemarkListActivity" pattern="org.wit.placemark.activities.PlacemarkListActivity" vexpanded="false" illegal="false" visibility="public" drill="false" />
+                  </row>
+                  <row>
+                    <cell name="PlacemarkActivity" pattern="org.wit.placemark.activities.PlacemarkActivity" vexpanded="false" illegal="false" visibility="public" drill="false" />
+                    <cell name="PlacemarkAdapter" pattern="org.wit.placemark.activities.PlacemarkAdapter" vexpanded="false" illegal="false" visibility="public" drill="false" />
+                  </row>
+                  <row>
+                    <cell name="MapsActivity" pattern="org.wit.placemark.activities.MapsActivity" vexpanded="false" illegal="false" visibility="public" drill="false" />
+                    <cell name="PlacemarkListener" pattern="org.wit.placemark.activities.PlacemarkListener" vexpanded="false" illegal="false" visibility="public" drill="false" />
+                  </row>
+                </grid>
+              </cell>
+            </row>
+            <row>
+              <cell name="main" pattern="org.wit.placemark.main.?" vexpanded="true" illegal="false" visibility="public" drill="true">
+                <grid>
+                  <row>
+                    <cell name="MainApp" pattern="org.wit.placemark.main.MainApp" vexpanded="false" illegal="false" visibility="public" drill="false" />
+                  </row>
+                </grid>
+              </cell>
+            </row>
+            <row>
+              <cell name="models" pattern="org.wit.placemark.models.?" vexpanded="true" illegal="false" visibility="public" drill="true">
+                <grid>
+                  <row>
+                    <cell name="(4)" pattern="" vexpanded="true" illegal="false" visibility="public" drill="true">
+                      <grid>
+                        <row>
+                          <cell name="PlacemarkMemStore" pattern="org.wit.placemark.models.PlacemarkMemStore" vexpanded="false" illegal="false" visibility="public" drill="false" />
+                        </row>
+                        <row>
+                          <cell name="PlacemarkStore" pattern="org.wit.placemark.models.PlacemarkStore" vexpanded="false" illegal="false" visibility="public" drill="false" />
+                        </row>
+                        <row>
+                          <cell name="PlacemarkMemStoreKt" pattern="org.wit.placemark.models.PlacemarkMemStoreKt" vexpanded="false" illegal="false" visibility="public" drill="false" />
+                          <cell name="PlacemarkModel" pattern="org.wit.placemark.models.PlacemarkModel" vexpanded="false" illegal="false" visibility="public" drill="false" />
+                        </row>
+                      </grid>
+                    </cell>
+                    <cell name="(1)" pattern="" vexpanded="true" illegal="false" visibility="public" drill="true">
+                      <grid>
+                        <row>
+                          <cell name="Location" pattern="org.wit.placemark.models.Location" vexpanded="false" illegal="false" visibility="public" drill="false" />
+                        </row>
+                      </grid>
+                    </cell>
+                  </row>
+                </grid>
+              </cell>
+            </row>
+            <row>
+              <cell name="placemark" pattern="org.wit.placemark.*" vexpanded="false" illegal="false" visibility="public" drill="true">
+                <grid>
+                  <row>
+                    <cell name="BuildConfig" pattern="org.wit.placemark.BuildConfig" vexpanded="false" illegal="false" visibility="public" drill="false" />
+                    <cell name="R" pattern="org.wit.placemark.R" vexpanded="false" illegal="false" visibility="public" drill="false" />
+                  </row>
+                </grid>
+              </cell>
+              <cell name="helpers" pattern="org.wit.placemark.helpers.?" vexpanded="true" illegal="false" visibility="public" drill="true">
+                <grid>
+                  <row>
+                    <cell name="ImageHelpersKt" pattern="org.wit.placemark.helpers.ImageHelpersKt" vexpanded="false" illegal="false" visibility="public" drill="false" />
+                  </row>
+                </grid>
+              </cell>
+            </row>
+          </grid>
+        </cell>
+        <cell name="(24)" pattern="" vexpanded="false" illegal="false" visibility="public" drill="true">
+          <grid>
+            <row>
+              <cell name="lifecycle" pattern="android.arch.lifecycle.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+              <cell name="compat" pattern="android.support.compat.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+              <cell name="constraint" pattern="android.support.constraint.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+              <cell name="coreui" pattern="android.support.coreui.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+              <cell name="coreutils" pattern="android.support.coreutils.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+              <cell name="design" pattern="android.support.design.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+              <cell name="fragment" pattern="android.support.fragment.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+              <cell name="drawable" pattern="android.support.graphics.drawable.*" vexpanded="false" illegal="false" visibility="public" drill="true" />
+              <cell name="animated" pattern="android.support.graphics.drawable.animated.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+              <cell name="mediacompat" pattern="android.support.mediacompat.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+              <cell name="transition" pattern="android.support.transition.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+              <cell name="v4" pattern="android.support.v4.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+              <cell name="appcompat" pattern="android.support.v7.appcompat.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+              <cell name="cardview" pattern="android.support.v7.cardview.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+              <cell name="recyclerview" pattern="android.support.v7.recyclerview.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+              <cell name="dummy" pattern="com.android.tools.ir.dummy.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+              <cell name="gms" pattern="com.google.android.gms.*" vexpanded="false" illegal="false" visibility="public" drill="true" />
+              <cell name="base" pattern="com.google.android.gms.base.*" vexpanded="false" illegal="false" visibility="public" drill="true" />
+              <cell name="license" pattern="com.google.android.gms.base.license.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+              <cell name="license" pattern="com.google.android.gms.common.license.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+              <cell name="maps" pattern="com.google.android.gms.maps.*" vexpanded="false" illegal="false" visibility="public" drill="true" />
+              <cell name="license" pattern="com.google.android.gms.maps.license.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+              <cell name="tasks" pattern="com.google.android.gms.tasks.*" vexpanded="false" illegal="false" visibility="public" drill="true" />
+              <cell name="license" pattern="com.google.android.gms.tasks.license.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+            </row>
+          </grid>
+        </cell>
+      </row>
+      <description>Generated from LSM "Model 1"</description>
+    </grid>
+  </grid-set>
+</local-project>
